@@ -361,7 +361,7 @@
           "Parameters": [
             {
               "Name": "Specific intestinal permeability (transcellular)",
-              "Value": 9.8649602504E-06,
+              "Value": 9.8649602504e-06,
               "Unit": "cm/min",
               "ValueOrigin": {
                 "Source": "ParameterIdentification"
@@ -1670,7 +1670,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
@@ -1681,6 +1681,150 @@
           "Name": "UGT1A1-PH-41095",
           "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 168.0,
+              "Max": 180.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 162.0422,
+              "Max": 5000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Acosta2007_300mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Acosta2007_300mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAcosta2007_300mg\n2020-05-20 12:07"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 167.772,
+              "Max": 180.1456,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 447.8968,
+              "Max": 3811.054,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Acosta2007_300mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Acosta2007_300mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)|Time",
+              "Y": "Acosta 2007 - Period 1 - Atazanavir - PO - 300 mg - Plasma - agg. (n=10)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAcosta2007_300mg\n2020-05-20 12:07"
         }
       ]
     },
@@ -1916,7 +2060,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
@@ -1927,6 +2071,150 @@
           "Name": "UGT1A1-PH-41095",
           "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.0912,
+              "Max": 194.7271,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 1.335861,
+              "Max": 7058.08,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Agarwala2003_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Agarwala2003_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|Time",
+              "Y": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAgarwala2003_400mg\n2020-05-20 12:07"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 118.6916,
+              "Max": 192.8359,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 3.411026,
+              "Max": 9611.033,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Agarwala2003_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Agarwala2003_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|Time",
+              "Y": "Agarwala 2003 - Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAgarwala2003_400mg\n2020-05-20 12:07"
         }
       ]
     },
@@ -2162,7 +2450,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
@@ -2173,6 +2461,150 @@
           "Name": "UGT1A1-PH-41095",
           "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.9396,
+              "Max": 145.6525,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 33.37169,
+              "Max": 8000.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Agarwala2005a_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Agarwala2005a_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAgarwala2005a_400mg\n2020-05-20 12:07"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 120.1452,
+              "Max": 144.2653,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 113.1992,
+              "Max": 8769.348,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Agarwala2005a_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Agarwala2005a_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|Time",
+              "Y": "Agarwala 2005a - ATV 400 mg AM (N=15) - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAgarwala2005a_400mg\n2020-05-20 12:07"
         }
       ]
     },
@@ -2408,7 +2840,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
@@ -2419,6 +2851,150 @@
           "Name": "UGT1A1-PH-41095",
           "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.684,
+              "Max": 145.1002,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 93.98233,
+              "Max": 5427.44,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Agarwala2005b_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Agarwala2005b_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAgarwala2005b_400mg\n2020-05-20 12:07"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 120.1688,
+              "Max": 143.9011,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 218.3141,
+              "Max": 5981.433,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Agarwala2005b_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Agarwala2005b_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|Time",
+              "Y": "Agarwala 2005b - ATV 400 mg (Treatment A) - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nAgarwala2005b_400mg\n2020-05-20 12:07"
         }
       ]
     },
@@ -2670,7 +3246,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
@@ -2681,6 +3257,150 @@
           "Name": "UGT1A1-PH-41095",
           "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 141.9984,
+              "Max": 168.8662,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 45.61385,
+              "Max": 6579.798,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Martin2008_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Martin2008_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nMartin2008_400mg\n2020-05-20 12:10"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 142.8705,
+              "Max": 168.5712,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 131.9936,
+              "Max": 7006.287,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Martin2008_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Martin2008_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|Time",
+              "Y": "Martin 2008 - Atazanavir monotherapy (n = 24) - Atazanavir - PO - 400 mg - Plasma - agg. (n=24)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nMartin2008_400mg\n2020-05-20 12:10"
         }
       ]
     },
@@ -2922,7 +3642,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
@@ -2933,6 +3653,172 @@
           "Name": "UGT1A1-PH-41095",
           "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.3247,
+              "Max": 145.262,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 75.47388,
+              "Max": 5100.178,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu2011_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2011_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nZhu2011_400mg\n2020-05-20 12:11"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.3247,
+              "Max": 145.262,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 250.0,
+              "Max": 5010.178,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu2011_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2011_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment B: Atazanavir 400 mg QAM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|Time",
+              "Y": "Zhu 2011 - Treatment A: Atazanavir 400 mg QPM - Atazanavir - PO - 400 mg - Plasma - agg. (n=28)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nZhu2011_400mg\n2020-05-20 12:11"
         }
       ]
     },
@@ -3052,7 +3938,7 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
@@ -3063,6 +3949,146 @@
           "Name": "UGT1A1-PH-41095",
           "MoleculeName": "UGT1A1",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|Time",
+              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2020-05-20 12:12"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.4064549,
+              "Max": 24.47293,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 23.12233,
+              "Max": 6255.891,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungFemales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|Time",
+              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Females - Atazanavir - PO - 400 mg - Plasma - agg. (n=14)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-014_400mg_YoungFemales\n2020-05-20 12:12"
         }
       ]
     },
@@ -3304,12 +4330,178 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.1302,
+              "Max": 145.6308,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 6.341982,
+              "Max": 2408.06,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-028_200mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-028_200mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - B-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - B-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - B-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-028_200mg\n2020-05-20 12:08"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.859,
+              "Max": 143.9388,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 42.883,
+              "Max": 1163.893,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-028_200mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-028_200mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - A-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - B-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - B-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - B-Day 6 - Atazanavir - PO - 200 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-028_200mg\n2020-05-20 12:08"
         }
       ]
     },
@@ -3551,12 +4743,178 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.6332,
+              "Max": 145.2257,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 64.27351,
+              "Max": 6042.32,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-028_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-028_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - D-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - D-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - D-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - C-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - C-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - C-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-028_400mg\n2020-05-20 12:08"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 120.3691,
+              "Max": 144.0614,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 162.351,
+              "Max": 4650.061,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-028_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-028_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - D-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - D-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - D-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#008000",
+                "LegendIndex": 3,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-028, p. 128 - C-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-028, p. 128 - C-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|Time",
+              "Y": "ClinPharmReview, AI424-028, p. 128 - C-Day 6 - Atazanavir - PO - 400 mg - Plasma - agg. (n=8)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-028_400mg\n2020-05-20 12:08"
         }
       ]
     },
@@ -3778,12 +5136,156 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 94.44028,
+              "Max": 122.6812,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -281.6676,
+              "Max": 2755.817,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-040_200mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-040_200mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)|Time",
+              "Y": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-040_200mg\n2020-05-20 12:08"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 93.18864,
+              "Max": 121.6849,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 16.17179,
+              "Max": 4331.758,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-040_200mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-040_200mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)|Time",
+              "Y": "ClinPharmReview, AI424-040, p. 64 - 200 mg - Atazanavir - PO - 200 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-040_200mg\n2020-05-20 12:08"
         }
       ]
     },
@@ -4005,12 +5507,156 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 92.40862,
+              "Max": 121.572,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 117.0159,
+              "Max": 6212.48,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-040_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-040_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)|Time",
+              "Y": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-040_400mg\n2020-05-20 12:09"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 92.40862,
+              "Max": 121.572,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 117.0159,
+              "Max": 6212.48,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-040_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-040_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)|Time",
+              "Y": "ClinPharmReview, AI424-040, p. 64 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-040_400mg\n2020-05-20 12:09"
         }
       ]
     },
@@ -4232,12 +5878,156 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 95.8768,
+              "Max": 122.2682,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 204.4317,
+              "Max": 11632.17,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-040_800mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-040_800mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)|Time",
+              "Y": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-040_800mg\n2020-05-20 12:09"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 95.8768,
+              "Max": 121.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 204.4317,
+              "Max": 11632.17,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-040_800mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-040_800mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)|Time",
+              "Y": "ClinPharmReview, AI424-040, p. 64 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=20)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-040_800mg\n2020-05-20 12:09"
         }
       ]
     },
@@ -4537,12 +6327,156 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 215.6638,
+              "Max": 240.4869,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.7202498,
+              "Max": 5454.241,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-056_300mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-056_300mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)|Time",
+              "Y": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-056_300mg\n2020-05-20 12:09"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 215.6638,
+              "Max": 240.4869,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.7202498,
+              "Max": 5454.241,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-056_300mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-056_300mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)|Time",
+              "Y": "ClinPharmReview, AI424-056, p. 134 - Atazanavir without ritonavir, Day 10 - Atazanavir - PO - 300 mg - Plasma - agg. (n=30)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-056_300mg\n2020-05-20 12:09"
         }
       ]
     },
@@ -4778,12 +6712,156 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 116.1481,
+              "Max": 193.5746,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.2725486,
+              "Max": 10.1873,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-076_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-076_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|Time",
+              "Y": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-076_400mg\n2020-05-20 12:10"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.4473,
+              "Max": 192.1596,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µmol/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.004577335,
+              "Max": 10.36396,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-076_400mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-076_400mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|Time",
+              "Y": "ClinPharmReview, AI424-076, p. 178 - 400 mg - Atazanavir - PO - 400 mg - Plasma - agg. (n=65)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-076_400mg\n2020-05-20 12:10"
         }
       ]
     },
@@ -5019,12 +7097,156 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 118.8974,
+              "Max": 194.3241,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -367.6109,
+              "Max": 14072.93,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-076_800mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-076_800mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)|Time",
+              "Y": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-076_800mg\n2020-05-20 12:10"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 119.3419,
+              "Max": 192.4655,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 20.25055,
+              "Max": 12216.62,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-076_800mg-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-076_800mg|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)|Time",
+              "Y": "ClinPharmReview, AI424-076, p. 178 - 800 mg - Atazanavir - PO - 800 mg - Plasma - agg. (n=66)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-076_800mg\n2020-05-20 12:10"
         }
       ]
     },
@@ -5390,12 +7612,156 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 262.5721,
+              "Max": 277.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 848.5238,
+              "Max": 7379.983,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu2010_300mg_Atazanavir-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2010_300mg_Atazanavir|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)|Time",
+              "Y": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nZhu2010_300mg_Atazanavir\n2020-05-20 12:11"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 262.5721,
+              "Max": 277.7396,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 848.5238,
+              "Max": 7379.983,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "Zhu2010_300mg_Atazanavir-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "Zhu2010_300mg_Atazanavir|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)|Time",
+              "Y": "Zhu 2010 - Atazanvir 300 mg twice daily - Atazanavir - PO - 300 mg - Plasma - agg. (n=22)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nZhu2010_300mg_Atazanavir\n2020-05-20 12:11"
         }
       ]
     },
@@ -5507,12 +7873,152 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)|Time",
+              "Y": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2020-05-20 12:12"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.1375045,
+              "Max": 24.22204,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 5.178827,
+              "Max": 3538.25,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-004_400mg_TreatmentA|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)|Time",
+              "Y": "ClinPharmReview, AI424-004, p. 94 - Treatment A - Atazanavir - PO - 400 mg - Plasma - agg. (n=32)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-004_400mg_TreatmentA\n2020-05-20 12:12"
         }
       ]
     },
@@ -5641,12 +8147,224 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.0,
+              "Max": 24.0,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|Time",
+              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2020-05-20 12:12"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.479013,
+              "Max": 24.99624,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 11.92693,
+              "Max": 3636.464,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|Time",
+              "Y": "ClinPharmReview, AI424-014, p. 77 - Young Males - Atazanavir - PO - 400 mg - Plasma - agg. (n=15)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 5,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2020-05-20 12:12"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "",
+              "Dimension": "Fraction",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales-Atazanavir-Kidney-Urine-Fraction excreted to urine",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-014_400mg_YoungMales|Organism|Kidney|Urine|Atazanavir|Fraction excreted to urine",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#C0C000",
+                "LegendIndex": 3,
+                "LineStyle": "Dash"
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)-Atazanavir-Kidney-Urine-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|Time",
+              "Y": "ClinPharmReview, AI424-029, p. 47 - Urinary radioactivity - Atazanavir - PO - 400  - Urine - agg. (n=12)|ObservedData|Kidney|Urine|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "VisibleInLegend": false,
+                "Color": "#C0C000",
+                "LegendIndex": 6,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 2",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-014_400mg_YoungMales\n2020-05-20 12:12"
         }
       ]
     },
@@ -5768,12 +8486,152 @@
           }
         }
       ],
-      "HasResults": false,
+      "HasResults": true,
       "Interactions": [
         {
           "Name": "CYP3A4-Perloff2005",
           "MoleculeName": "CYP3A4",
           "CompoundName": "Atazanavir"
+        }
+      ],
+      "IndividualAnalyses": [
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|Time",
+              "Y": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2020-05-20 12:12"
+        },
+        {
+          "Axes": [
+            {
+              "Unit": "h",
+              "Dimension": "Time",
+              "Type": "X",
+              "GridLines": false,
+              "Visible": true,
+              "Min": -0.1547273,
+              "Max": 72.46323,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "None",
+              "Scaling": "Linear",
+              "NumberMode": "Normal"
+            },
+            {
+              "Unit": "µg/l",
+              "Dimension": "Concentration (molar)",
+              "Type": "Y",
+              "GridLines": false,
+              "Visible": true,
+              "Min": 0.2829626,
+              "Max": 3180.448,
+              "DefaultColor": "#FFFFFF",
+              "DefaultLineStyle": "Solid",
+              "Scaling": "Log",
+              "NumberMode": "Normal"
+            }
+          ],
+          "Curves": [
+            {
+              "Name": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects-Atazanavir-Peripheral Venous Blood-Plasma-Concentration",
+              "X": "Time",
+              "Y": "FDA-ClinPharmReview_AI424-015_400mg_NormalSubjects|Organism|PeripheralVenousBlood|Atazanavir|Plasma (Peripheral Venous Blood)",
+              "CurveOptions": {
+                "Color": "#FF0000",
+                "LegendIndex": 1
+              }
+            },
+            {
+              "Name": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)-Atazanavir-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|Time",
+              "Y": "ClinPharmReview, AI424-015, p. 81 - Normal subjects - Atazanavir - PO - 400 mg - Plasma - agg. (n=16)|ObservedData|Peripheral Venous Blood|Plasma|Atazanavir|ArithmeticMean",
+              "CurveOptions": {
+                "Color": "#0000FF",
+                "LegendIndex": 2,
+                "LineStyle": "None",
+                "Symbol": "Circle"
+              }
+            }
+          ],
+          "Name": "Time Profile Analysis 1",
+          "FontAndSize": {
+            "Fonts": {
+              "AxisSize": 10,
+              "LegendSize": 8,
+              "TitleSize": 16,
+              "DescriptionSize": 12,
+              "OriginSize": 8,
+              "FontFamilyName": "Microsoft Sans Serif",
+              "WatermarkSize": 32
+            }
+          },
+          "Settings": {
+            "SideMarginsEnabled": true,
+            "LegendPosition": "None",
+            "BackColor": "#FFFFFF",
+            "DiagramBackColor": "#FFFFFF"
+          },
+          "OriginText": "Atazanavir-Model\nFDA-ClinPharmReview_AI424-015_400mg_NormalSubjects\n2020-05-20 12:12"
         }
       ]
     }
