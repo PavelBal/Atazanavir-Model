@@ -1,6 +1,7 @@
 {
   "Name": "Atazanavir-Model",
   "Version": 81,
+  "ApplicationName": "PK-Sim",
   "ExpressionProfiles": [
     {
       "Type": "Enzyme",
@@ -13779,6 +13780,5 @@
         "Zhu2010_300mg_Atazanavir"
       ]
     }
-  ],
-  "ApplicationName": "PK-Sim"
+  ]
 }
