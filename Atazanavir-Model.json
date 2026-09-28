@@ -528,308 +528,253 @@
   "Protocols": [
     {
       "Name": "400mg_QD_7days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 400.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 7.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 400.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 145.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Event offset",
+          "Value": -30.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "400mg_QD_6days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 400.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 6.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 400.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 121.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
+    },
+    {
+      "Name": "400mg_QD_6days (meal 30 min before)",
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
+        {
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 400.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 121.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Event offset",
+          "Value": -30.0,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
+        }
+      ]
     },
     {
       "Name": "400mg_QD_5days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 400.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 5.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 400.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 97.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Event offset",
+          "Value": -4.8,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "200mg_QD_5days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 5.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 97.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Event offset",
+          "Value": -4.8,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "800mg_QD_5days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 800.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 5.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 800.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 97.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Event offset",
+          "Value": -4.8,
+          "Unit": "min",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "400mg_SD",
       "ApplicationType": "Oral",
       "DosingInterval": "Single",
+      "EventKey": "Event",
       "Parameters": [
         {
           "Name": "Start time",
@@ -882,6 +827,19 @@
                   "ValueOrigin": {}
                 }
               ]
+            },
+            {
+              "Name": "Schema Item 2",
+              "ApplicationType": "Event",
+              "EventKey": "Event",
+              "Parameters": [
+                {
+                  "Name": "Start time",
+                  "Value": -12.0,
+                  "Unit": "h",
+                  "ValueOrigin": {}
+                }
+              ]
             }
           ],
           "Parameters": [
@@ -915,243 +873,139 @@
     },
     {
       "Name": "300mg_BID",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_12_12",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 300.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 15.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 300.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 169.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "200mg_QD_6days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 200.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 6.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 200.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 121.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "300mg_QD_10days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 300.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 10.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 300.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 217.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     },
     {
       "Name": "800mg_QD_6days",
-      "DosingInterval": "Single",
-      "Schemas": [
+      "ApplicationType": "Oral",
+      "DosingInterval": "DI_24",
+      "EventKey": "Event",
+      "Parameters": [
         {
-          "Name": "Schema 1",
-          "SchemaItems": [
-            {
-              "Name": "Schema Item 1",
-              "ApplicationType": "Oral",
-              "FormulationKey": "Formulation",
-              "Parameters": [
-                {
-                  "Name": "Start time",
-                  "Value": 0.0,
-                  "Unit": "h",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "InputDose",
-                  "Value": 800.0,
-                  "Unit": "mg",
-                  "ValueOrigin": {}
-                },
-                {
-                  "Name": "Volume of water/body weight",
-                  "Value": 3.5,
-                  "Unit": "ml/kg",
-                  "ValueOrigin": {}
-                }
-              ]
-            }
-          ],
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 0.0,
-              "Unit": "h",
-              "ValueOrigin": {}
-            },
-            {
-              "Name": "NumberOfRepetitions",
-              "Value": 6.0,
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "TimeBetweenRepetitions",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
+          "Name": "Start time",
+          "Value": 0.0,
+          "Unit": "h",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "InputDose",
+          "Value": 800.0,
+          "Unit": "mg",
+          "ValueOrigin": {}
+        },
+        {
+          "Name": "End time",
+          "Value": 121.0,
+          "Unit": "h",
+          "ValueOrigin": {
+            "Source": "Unknown"
+          }
+        },
+        {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg",
+          "ValueOrigin": {}
         }
-      ],
-      "TimeUnit": "h"
+      ]
     }
   ],
   "Events": [
@@ -1397,277 +1251,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 12.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 24.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 36.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 48.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 60.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 72.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 84.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 96.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 108.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 120.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 132.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 144.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 156.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 168.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 180.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 192.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 204.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 216.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 228.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 240.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 252.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 264.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 276.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 288.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 300.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 312.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -1920,37 +1510,37 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
@@ -1991,73 +1581,19 @@
             }
           ],
           "Protocol": {
-            "Name": "400mg_QD_6days",
+            "Name": "400mg_QD_6days (meal 30 min before)",
             "Formulations": [
               {
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 23.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 47.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 71.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 95.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 119.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -2310,37 +1846,37 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
@@ -2381,73 +1917,19 @@
             }
           ],
           "Protocol": {
-            "Name": "400mg_QD_6days",
+            "Name": "400mg_QD_6days (meal 30 min before)",
             "Formulations": [
               {
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 23.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 47.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 71.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 95.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 119.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -2700,37 +2182,37 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
@@ -2771,73 +2253,19 @@
             }
           ],
           "Protocol": {
-            "Name": "400mg_QD_6days",
+            "Name": "400mg_QD_6days (meal 30 min before)",
             "Formulations": [
               {
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 23.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 47.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 71.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 95.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 119.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -3173,77 +2601,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 23.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 47.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 71.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 95.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 119.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 143.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -3497,37 +2861,37 @@
       ],
       "Parameters": [
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_1|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_2|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_3|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_4|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_5|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
         },
         {
-          "Path": "Events|400mg_QD_6days|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
+          "Path": "Events|400mg_QD_6days (meal 30 min before)|Reyataz capsule|Application_6|ProtocolSchemaItem|Volume of water/body weight",
           "Value": 3.5,
           "Unit": "ml/kg",
           "ValueOrigin": {}
@@ -3573,73 +2937,19 @@
             }
           ],
           "Protocol": {
-            "Name": "400mg_QD_6days",
+            "Name": "400mg_QD_6days (meal 30 min before)",
             "Formulations": [
               {
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "High-fat breakfast",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 23.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 47.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 71.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 95.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "High-fat breakfast",
-          "StartTime": {
-            "Value": 119.5,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -3925,17 +3235,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
@@ -4267,67 +3573,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 24.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 48.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 72.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 96.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 120.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -4680,67 +3932,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 24.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 48.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 72.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 96.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 120.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -5081,59 +4279,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 23.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 47.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 71.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 95.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -5452,59 +4604,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 23.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 47.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 71.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 95.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -5823,59 +4929,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 23.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 47.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 71.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 95.92,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -6224,107 +5284,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 24.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 48.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 72.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 96.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 120.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 144.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 168.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 192.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 216.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -6649,67 +5615,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 24.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 48.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 72.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 96.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 120.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -7034,67 +5946,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 24.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 48.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 72.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 96.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 120.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -7467,149 +6325,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 108.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 120.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 132.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 144.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 156.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 168.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 180.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 192.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 204.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 216.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 228.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 240.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 252.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
-          }
-        },
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 264.0,
-            "Unit": "h",
-            "ValueOrigin": {
-              "Source": "Unknown"
-            }
           }
         }
       ],
@@ -8134,17 +6856,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
@@ -8473,17 +7191,13 @@
                 "Name": "Reyataz capsule",
                 "Key": "Formulation"
               }
+            ],
+            "Events": [
+              {
+                "Name": "Light meal",
+                "Key": "Event"
+              }
             ]
-          }
-        }
-      ],
-      "Events": [
-        {
-          "Name": "Light meal",
-          "StartTime": {
-            "Value": 0.0,
-            "Unit": "h",
-            "ValueOrigin": {}
           }
         }
       ],
